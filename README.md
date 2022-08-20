@@ -15,6 +15,13 @@ TIPS:
   - use the ctrl-p command `Developer: Inspect Editor Tokens and Scopes` to debug
   - use the ctrl-p command `Developer: Reload Window` after a file change
 
+
+NOTES:
+
+- I've left references to fsharp key name suffixes in the syntax file.
+- If I understand things correctly, the syntax is bound to the scope name `source.roc` so this shouldn't cause any naming conflict regarding existing fsharp rules.
+  - It'll make removing unneeded matching rules easier later
+
 ---
 
 Keep below for ref, for now...
