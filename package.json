@@ -1,7 +1,10 @@
 {
   "name": "roc-lang-support",
-  "displayName": "Roc-lang Support",
+  "displayName": "Roc-lang Support (unofficial/community)",
   "description": "Syntax highlighting for: https://www.roc-lang.org",
+  "repository": {
+    "url": "https://github.com/benjamin-thomas/vscode-roc-lang-extension"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.70.0"
@@ -10,16 +13,25 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "roc",
-      "aliases": ["Roc", "roc"],
-      "extensions": [".roc"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "roc",
-      "scopeName": "source.roc",
-      "path": "./syntaxes/roc.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "roc",
+        "aliases": [
+          "Roc",
+          "roc"
+        ],
+        "extensions": [
+          ".roc"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "roc",
+        "scopeName": "source.roc",
+        "path": "./syntaxes/roc.tmLanguage.json"
+      }
+    ]
   }
 }
