@@ -1,3 +1,26 @@
+# Roc language support
+
+For now, this extension provides only *basic* syntax highlighting...
+
+I "stole" the fsharp syntax file and tweaked it. So as it is, fsharp grammar could be highlighted and the syntax file should probably be rewritten from scratch.
+
+TIPS:
+
+- See this [syntax-highlight guide](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide) for ref
+- use IntelliJ to copy/paste
+  - to/from this site: https://regex101.com
+  - both the site and IntelliJ will add/remove extra escape chars upon copy/paste.
+- for vscode:
+  - clone the repo in: `~/.vscode/extensions/`
+  - use the ctrl-p command `Developer: Inspect Editor Tokens and Scopes` to debug
+  - use the ctrl-p command `Developer: Reload Window` after a file change
+
+---
+
+Keep below for ref, for now...
+
+---
+
 # roc-lang-support README
 
 This is the README for your extension "roc-lang-support". After writing up a brief description, we recommend including the following sections.
