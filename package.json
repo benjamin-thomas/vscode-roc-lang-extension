@@ -1,0 +1,25 @@
+{
+  "name": "roc-lang-support",
+  "displayName": "Roc-lang Support",
+  "description": "Syntax highlighting for: https://www.roc-lang.org",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "roc",
+      "aliases": ["Roc", "roc"],
+      "extensions": [".roc"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "roc",
+      "scopeName": "source.roc",
+      "path": "./syntaxes/roc.tmLanguage.json"
+    }]
+  }
+}
