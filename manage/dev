@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Work on the extension...
+exec code --extensions-dir .. .

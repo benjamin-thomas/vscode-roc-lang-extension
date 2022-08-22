@@ -4,6 +4,13 @@ This extension provides *basic* syntax highlighting for now.
 
 I "stole" the fsharp syntax file and tweaked it. So as it is, fsharp grammar could be highlighted and the syntax file should probably be rewritten from scratch.
 
+## Dev workflow
+
+Clone the repo and then run: `./manage/dev`.
+
+NOTE: the parent folder must not contain other vscode extensions, otherwise they'll be loaded.
+
+---
 
 TIPS:
 
