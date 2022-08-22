@@ -7,7 +7,7 @@
     "url": "https://github.com/benjamin-thomas/vscode-roc-lang-extension"
   },
   "publisher": "benjamin-thomas",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.70.0"
   },
