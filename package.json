@@ -2,6 +2,7 @@
   "name": "roc-lang-support",
   "displayName": "Roc-lang Support (unofficial/community)",
   "description": "Syntax highlighting for: https://www.roc-lang.org",
+  "icon": "icon.png",
   "repository": {
     "url": "https://github.com/benjamin-thomas/vscode-roc-lang-extension"
   },
