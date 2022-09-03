@@ -1,9 +1,9 @@
 # Change Log
 
-All notable changes to the "roc-lang-support" extension will be documented in this file.
+## [0.0.3] - 2022-09-03
+### Added
+- file icon
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
+## [0.0.2] - 2022-08
 
 - Initial release

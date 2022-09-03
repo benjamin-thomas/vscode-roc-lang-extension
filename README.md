@@ -9,6 +9,7 @@ I "stole" the fsharp syntax file and tweaked it. So as it is, fsharp grammar cou
 Clone the repo and then run: `./manage/dev`.
 
 NOTE: the parent folder must not contain other vscode extensions, otherwise they'll be loaded.
+NOTE: note sure it's the best way to load the extension while iterating.
 
 ---
 
